@@ -1,2 +1,3 @@
 # Data-Analysis-Of-IPL-using-EPI-info
 This project aims to explore and analyze a dataset of Indian Premier League (IPL) cricket matches using Epi Info, a statistical software developed by the CDC (Centers for Disease Control and Prevention)
+The dataset includes detailed records of IPL matches, such as match dates, teams, scores, winners, and venues. Through Epi Info’s Visual Dashboard, this project performs various statistical analyses to uncover trends, patterns, and insights from the matches. Key areas of analysis include match outcomes, team performance comparisons, venue advantages, and season-wise statistics.
