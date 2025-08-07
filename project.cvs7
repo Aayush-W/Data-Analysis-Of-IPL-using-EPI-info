@@ -1,0 +1,961 @@
+﻿<DashboardCanvas>
+  <dashboardHelper>
+    <connectionString>zHDkaR2yI5Pbh2/LYHfZ7ljYKFwMFLb6TrxCvYEORi6nMXDbm8fAkvr4pGbzpcd9938imda/xjnnZlcaZr1jt0x+5Jx945e3ctdN21u4lJUOihzPXHllOFQYCUYsFN4WyY4slnmKI0asQYQQKJfEkMXZTtv6K+tJP6lWqrGbQFE=</connectionString>
+    <databaseTypeIdentifier>CSV</databaseTypeIdentifier>
+    <tableName>ipl_matches_epiinfo#csv</tableName>
+    <useAdvancedDataFilterCondition>False</useAdvancedDataFilterCondition>
+    <advancedDataFilterCondition>
+    </advancedDataFilterCondition>
+    <ReportId>8d3b9b74-3a0c-448c-bfee-cdb1e61b3926</ReportId>
+    <relatedDataConnections />
+    <dataFilters recordProcessScope="undeleted" />
+    <dashboardRules />
+  </dashboardHelper>
+  <Gadgets>
+    <frequencyGadget top="28" left="76" collapsed="False" gadgetType="EpiDashboard.FrequencyControl" id="bd418591-1940-451b-9745-1ba42449964c" actualHeight="618">
+      <dataFilters recordProcessScope="undeleted" />
+      <mainVariables>
+        <mainVariable>winner</mainVariable>
+      </mainVariables>
+      <allValues>False</allValues>
+      <showListLabels>False</showListLabels>
+      <sort>hightolow</sort>
+      <includeMissing>True</includeMissing>
+      <useFieldPrompts>True</useFieldPrompts>
+      <drawBorders>True</drawBorders>
+      <drawHeaderRow>True</drawHeaderRow>
+      <drawTotalRow>True</drawTotalRow>
+      <precision>2</precision>
+      <rowsToDisplay />
+      <percentBarWidth>100</percentBarWidth>
+      <columnsToShow>1,2,3,4,5,6</columnsToShow>
+      <customHeading>Winners Frequency Table</customHeading>
+      <customDescription>
+      </customDescription>
+      <customCaption>
+      </customCaption>
+    </frequencyGadget>
+    <pieChartGadget top="91" left="763" collapsed="false" gadgetType="EpiDashboard.Gadgets.Charting.PieChartGadget" id="f80ad42a-f33c-436b-b7d9-132eb539398a" actualHeight="475.08">
+      <dataFilters recordProcessScope="undeleted" />
+      <mainVariable>toss_decision</mainVariable>
+      <height>400</height>
+      <width>600</width>
+      <allValues>False</allValues>
+      <showListLabels>False</showListLabels>
+      <sort />
+      <includeMissing>False</includeMissing>
+      <customHeading>Toss Decision Pie Chart</customHeading>
+      <customDescription>
+      </customDescription>
+      <customCaption>
+      </customCaption>
+      <showAnnotations>True</showAnnotations>
+      <showAnnotationLabel>True</showAnnotationLabel>
+      <showAnnotationValue>True</showAnnotationValue>
+      <showAnnotationPercent>True</showAnnotationPercent>
+      <chartKind>1</chartKind>
+      <palette>12</palette>
+      <paletteColor1>#FFDF191E</paletteColor1>
+      <paletteColor2>#FFF56F06</paletteColor2>
+      <paletteColor3>#FFFFCC00</paletteColor3>
+      <paletteColor4>#FFFFF600</paletteColor4>
+      <paletteColor5>#FFA8E319</paletteColor5>
+      <paletteColor6>#FF85BC00</paletteColor6>
+      <paletteColor7>#FF1CF1CE</paletteColor7>
+      <paletteColor8>#FF00BCE3</paletteColor8>
+      <paletteColor9>#FF0077E3</paletteColor9>
+      <paletteColor10>#FF4400E3</paletteColor10>
+      <paletteColor11>#FFA200E3</paletteColor11>
+      <paletteColor12>#FFEE66C4</paletteColor12>
+      <annotationPercent>20</annotationPercent>
+      <chartTitle>
+      </chartTitle>
+      <chartSubTitle>
+      </chartSubTitle>
+      <showLegend>True</showLegend>
+      <showLegendBorder>False</showLegendBorder>
+      <showLegendVarNames>False</showLegendVarNames>
+      <legendFontSize>12</legendFontSize>
+      <legendDock>1</legendDock>
+    </pieChartGadget>
+    <frequencyGadget top="690" left="72" collapsed="False" gadgetType="EpiDashboard.FrequencyControl" id="bc8acf9b-c56c-454c-9801-b772a8af3a69" actualHeight="518.36">
+      <dataFilters recordProcessScope="undeleted">
+        <filterCondition>
+          <condition>([venue] = 'Eden Gardens')</condition>
+          <friendlyCondition>The value of [venue] is equal to Eden Gardens</friendlyCondition>
+          <columnName>[venue]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>venue</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'Eden Gardens'</value>
+          <friendlyValue>Eden Gardens</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>
+          </joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([venue] = 'Wankhede Stadium')</condition>
+          <friendlyCondition>The value of [venue] is equal to Wankhede Stadium</friendlyCondition>
+          <columnName>[venue]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>venue</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'Wankhede Stadium'</value>
+          <friendlyValue>Wankhede Stadium</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([venue] = 'M Chinnaswamy Stadium')</condition>
+          <friendlyCondition>The value of [venue] is equal to M Chinnaswamy Stadium</friendlyCondition>
+          <columnName>[venue]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>venue</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'M Chinnaswamy Stadium'</value>
+          <friendlyValue>M Chinnaswamy Stadium</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([venue] = 'Feroz Shah Kotla')</condition>
+          <friendlyCondition>The value of [venue] is equal to Feroz Shah Kotla</friendlyCondition>
+          <columnName>[venue]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>venue</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'Feroz Shah Kotla'</value>
+          <friendlyValue>Feroz Shah Kotla</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([venue] = 'Rajiv Gandhi International Stadium, Uppal')</condition>
+          <friendlyCondition>The value of [venue] is equal to Rajiv Gandhi International Stadium, Uppal</friendlyCondition>
+          <columnName>[venue]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>venue</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'Rajiv Gandhi International Stadium, Uppal'</value>
+          <friendlyValue>Rajiv Gandhi International Stadium, Uppal</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([venue] = 'MA Chidambaram Stadium, Chepauk')</condition>
+          <friendlyCondition>The value of [venue] is equal to MA Chidambaram Stadium, Chepauk</friendlyCondition>
+          <columnName>[venue]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>venue</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'MA Chidambaram Stadium, Chepauk'</value>
+          <friendlyValue>MA Chidambaram Stadium, Chepauk</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([venue] = 'Sawai Mansingh Stadium')</condition>
+          <friendlyCondition>The value of [venue] is equal to Sawai Mansingh Stadium</friendlyCondition>
+          <columnName>[venue]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>venue</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'Sawai Mansingh Stadium'</value>
+          <friendlyValue>Sawai Mansingh Stadium</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([venue] = 'Dubai International Cricket Stadium')</condition>
+          <friendlyCondition>The value of [venue] is equal to Dubai International Cricket Stadium</friendlyCondition>
+          <columnName>[venue]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>venue</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'Dubai International Cricket Stadium'</value>
+          <friendlyValue>Dubai International Cricket Stadium</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([venue] = 'Punjab Cricket Association Stadium, Mohali')</condition>
+          <friendlyCondition>The value of [venue] is equal to Punjab Cricket Association Stadium, Mohali</friendlyCondition>
+          <columnName>[venue]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>venue</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'Punjab Cricket Association Stadium, Mohali'</value>
+          <friendlyValue>Punjab Cricket Association Stadium, Mohali</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([venue] = 'Sheikh Zayed Stadium')</condition>
+          <friendlyCondition>The value of [venue] is equal to Sheikh Zayed Stadium</friendlyCondition>
+          <columnName>[venue]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>venue</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'Sheikh Zayed Stadium'</value>
+          <friendlyValue>Sheikh Zayed Stadium</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([venue] = 'Narendra Modi Stadium, Ahmedabad')</condition>
+          <friendlyCondition>The value of [venue] is equal to Narendra Modi Stadium, Ahmedabad</friendlyCondition>
+          <columnName>[venue]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>venue</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'Narendra Modi Stadium, Ahmedabad'</value>
+          <friendlyValue>Narendra Modi Stadium, Ahmedabad</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([venue] = 'Maharashtra Cricket Association Stadium')</condition>
+          <friendlyCondition>The value of [venue] is equal to Maharashtra Cricket Association Stadium</friendlyCondition>
+          <columnName>[venue]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>venue</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'Maharashtra Cricket Association Stadium'</value>
+          <friendlyValue>Maharashtra Cricket Association Stadium</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+      </dataFilters>
+      <mainVariables>
+        <mainVariable>venue</mainVariable>
+      </mainVariables>
+      <allValues>False</allValues>
+      <showListLabels>False</showListLabels>
+      <sort>hightolow</sort>
+      <includeMissing>True</includeMissing>
+      <useFieldPrompts>True</useFieldPrompts>
+      <drawBorders>True</drawBorders>
+      <drawHeaderRow>True</drawHeaderRow>
+      <drawTotalRow>True</drawTotalRow>
+      <precision>2</precision>
+      <rowsToDisplay />
+      <percentBarWidth>100</percentBarWidth>
+      <columnsToShow>1,2,3,4,5,6</columnsToShow>
+      <customHeading>Frequency</customHeading>
+      <customDescription>
+      </customDescription>
+      <customCaption>
+      </customCaption>
+    </frequencyGadget>
+    <frequencyGadget top="698" left="803" collapsed="False" gadgetType="EpiDashboard.FrequencyControl" id="43d4efcb-5744-4d35-9001-083276b8476b" actualHeight="479.88">
+      <dataFilters recordProcessScope="undeleted">
+        <filterCondition>
+          <condition>([umpire1] = 'AK Chaudhary')</condition>
+          <friendlyCondition>The value of [umpire1] is equal to AK Chaudhary</friendlyCondition>
+          <columnName>[umpire1]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>umpire1</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'AK Chaudhary'</value>
+          <friendlyValue>AK Chaudhary</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>
+          </joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([umpire1] = 'HDPK Dharmasena')</condition>
+          <friendlyCondition>The value of [umpire1] is equal to HDPK Dharmasena</friendlyCondition>
+          <columnName>[umpire1]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>umpire1</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'HDPK Dharmasena'</value>
+          <friendlyValue>HDPK Dharmasena</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([umpire1] = 'KN Ananthapadmanabhan')</condition>
+          <friendlyCondition>The value of [umpire1] is equal to KN Ananthapadmanabhan</friendlyCondition>
+          <columnName>[umpire1]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>umpire1</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'KN Ananthapadmanabhan'</value>
+          <friendlyValue>KN Ananthapadmanabhan</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([umpire1] = 'CB Gaffaney')</condition>
+          <friendlyCondition>The value of [umpire1] is equal to CB Gaffaney</friendlyCondition>
+          <columnName>[umpire1]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>umpire1</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'CB Gaffaney'</value>
+          <friendlyValue>CB Gaffaney</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([umpire1] = 'Asad Rauf')</condition>
+          <friendlyCondition>The value of [umpire1] is equal to Asad Rauf</friendlyCondition>
+          <columnName>[umpire1]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>umpire1</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'Asad Rauf'</value>
+          <friendlyValue>Asad Rauf</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([umpire1] = 'Nitin Menon')</condition>
+          <friendlyCondition>The value of [umpire1] is equal to Nitin Menon</friendlyCondition>
+          <columnName>[umpire1]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>umpire1</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'Nitin Menon'</value>
+          <friendlyValue>Nitin Menon</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([umpire1] = 'S Ravi')</condition>
+          <friendlyCondition>The value of [umpire1] is equal to S Ravi</friendlyCondition>
+          <columnName>[umpire1]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>umpire1</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'S Ravi'</value>
+          <friendlyValue>S Ravi</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([umpire1] = 'M Erasmus')</condition>
+          <friendlyCondition>The value of [umpire1] is equal to M Erasmus</friendlyCondition>
+          <columnName>[umpire1]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>umpire1</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'M Erasmus'</value>
+          <friendlyValue>M Erasmus</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([umpire1] = 'Aleem Dar')</condition>
+          <friendlyCondition>The value of [umpire1] is equal to Aleem Dar</friendlyCondition>
+          <columnName>[umpire1]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>umpire1</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'Aleem Dar'</value>
+          <friendlyValue>Aleem Dar</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([umpire1] = 'BF Bowden')</condition>
+          <friendlyCondition>The value of [umpire1] is equal to BF Bowden</friendlyCondition>
+          <columnName>[umpire1]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>umpire1</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'BF Bowden'</value>
+          <friendlyValue>BF Bowden</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([umpire1] = 'BNJ Oxenford')</condition>
+          <friendlyCondition>The value of [umpire1] is equal to BNJ Oxenford</friendlyCondition>
+          <columnName>[umpire1]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>umpire1</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'BNJ Oxenford'</value>
+          <friendlyValue>BNJ Oxenford</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+      </dataFilters>
+      <mainVariables>
+        <mainVariable>umpire1</mainVariable>
+      </mainVariables>
+      <allValues>False</allValues>
+      <showListLabels>False</showListLabels>
+      <sort>hightolow</sort>
+      <includeMissing>True</includeMissing>
+      <useFieldPrompts>True</useFieldPrompts>
+      <drawBorders>True</drawBorders>
+      <drawHeaderRow>True</drawHeaderRow>
+      <drawTotalRow>True</drawTotalRow>
+      <precision>2</precision>
+      <rowsToDisplay />
+      <percentBarWidth>100</percentBarWidth>
+      <columnsToShow>1,2,3,4,5,6</columnsToShow>
+      <customHeading>Frequency</customHeading>
+      <customDescription>
+      </customDescription>
+      <customCaption>
+      </customCaption>
+    </frequencyGadget>
+    <areaChartGadget top="1263" left="774" collapsed="false" gadgetType="EpiDashboard.Gadgets.Charting.AreaChartGadget" id="864cf1b6-4c6f-4a31-9714-1160d891f212" actualHeight="356.6">
+      <dataFilters recordProcessScope="undeleted" />
+      <mainVariable>super_over</mainVariable>
+      <secondYVarType>0</secondYVarType>
+      <height>300</height>
+      <width>500</width>
+      <allValues>False</allValues>
+      <showListLabels>False</showListLabels>
+      <sort />
+      <includeMissing>False</includeMissing>
+      <customHeading>Area Chart</customHeading>
+      <customDescription>
+      </customDescription>
+      <customCaption>
+      </customCaption>
+      <showSeriesLine>True</showSeriesLine>
+      <useRefValues>True</useRefValues>
+      <showAnnotations>False</showAnnotations>
+      <y2showAnnotations>False</y2showAnnotations>
+      <showGridLines>True</showGridLines>
+      <composition>1</composition>
+      <palette>12</palette>
+      <paletteColor1>#FFDF191E</paletteColor1>
+      <paletteColor2>#FFF56F06</paletteColor2>
+      <paletteColor3>#FFFFCC00</paletteColor3>
+      <paletteColor4>#FFFFF600</paletteColor4>
+      <paletteColor5>#FFA8E319</paletteColor5>
+      <paletteColor6>#FF85BC00</paletteColor6>
+      <paletteColor7>#F000FFFF</paletteColor7>
+      <paletteColor8>#FF00BCE3</paletteColor8>
+      <paletteColor9>#FF0077E3</paletteColor9>
+      <paletteColor10>#FF4400E3</paletteColor10>
+      <paletteColor11>#FFA200E3</paletteColor11>
+      <paletteColor12>#FFEE66C4</paletteColor12>
+      <areaType>Auto</areaType>
+      <transTop>90</transTop>
+      <transBottom>30</transBottom>
+      <y2LineType>Polygon</y2LineType>
+      <y2LineDashStyle>Solid</y2LineDashStyle>
+      <y2LineThickness>2</y2LineThickness>
+      <yAxisLabel>Count</yAxisLabel>
+      <yAxisFormatString>
+      </yAxisFormatString>
+      <y2AxisLabel>
+      </y2AxisLabel>
+      <y2AxisLegendTitle>
+      </y2AxisLegendTitle>
+      <y2AxisFormatString>
+      </y2AxisFormatString>
+      <xAxisLabelType>0</xAxisLabelType>
+      <xAxisLabel>
+      </xAxisLabel>
+      <xAxisAngle>0</xAxisAngle>
+      <chartTitle>
+      </chartTitle>
+      <chartSubTitle>
+      </chartSubTitle>
+      <showLegend>False</showLegend>
+      <showLegendBorder>False</showLegendBorder>
+      <showLegendVarNames>False</showLegendVarNames>
+      <legendFontSize>12</legendFontSize>
+      <yAxisLabelFontSize>12</yAxisLabelFontSize>
+      <xAxisLabelFontSize>12</xAxisLabelFontSize>
+      <yAxisFontSize>12</yAxisFontSize>
+      <xAxisFontSize>12</xAxisFontSize>
+      <legendDock>1</legendDock>
+    </areaChartGadget>
+    <columnChartGadget top="1269" left="49" collapsed="false" gadgetType="EpiDashboard.Gadgets.Charting.ColumnChartGadget" id="89a97368-a3a7-49ee-8734-2a85002be09c" actualHeight="556.6">
+      <dataFilters recordProcessScope="undeleted" />
+      <mainVariable>result_margin</mainVariable>
+      <secondYVarType>0</secondYVarType>
+      <height>500</height>
+      <width>600</width>
+      <allValues>False</allValues>
+      <showListLabels>False</showListLabels>
+      <sort />
+      <includeMissing>False</includeMissing>
+      <customHeading>Result Margin Bar Chart</customHeading>
+      <customDescription>
+      </customDescription>
+      <customCaption>
+      </customCaption>
+      <useDiffBarColors>False</useDiffBarColors>
+      <useRefValues>True</useRefValues>
+      <showAnnotations>False</showAnnotations>
+      <y2showAnnotations>False</y2showAnnotations>
+      <showGridLines>True</showGridLines>
+      <composition>0</composition>
+      <barSpace>0</barSpace>
+      <orientation>0</orientation>
+      <palette>12</palette>
+      <paletteColor1>#FFDF191E</paletteColor1>
+      <paletteColor2>#FFF56F06</paletteColor2>
+      <paletteColor3>#FFFFCC00</paletteColor3>
+      <paletteColor4>#FFFFF600</paletteColor4>
+      <paletteColor5>#FFA8E319</paletteColor5>
+      <paletteColor6>#FF85BC00</paletteColor6>
+      <paletteColor7>#FF1CF1CE</paletteColor7>
+      <paletteColor8>#FF00BCE3</paletteColor8>
+      <paletteColor9>#FF0077E3</paletteColor9>
+      <paletteColor10>#FF4400E3</paletteColor10>
+      <paletteColor11>#FFA200E3</paletteColor11>
+      <paletteColor12>#FFEE66C4</paletteColor12>
+      <barType>2</barType>
+      <y2LineType>1</y2LineType>
+      <y2LineDashStyle>4</y2LineDashStyle>
+      <y2LineThickness>1</y2LineThickness>
+      <yAxisLabel>Count</yAxisLabel>
+      <yAxisFormatString>
+      </yAxisFormatString>
+      <yAxisFrom>0</yAxisFrom>
+      <yAxisTo>0</yAxisTo>
+      <yAxisStep>0</yAxisStep>
+      <xAxisStartValue>
+      </xAxisStartValue>
+      <xAxisEndValue>
+      </xAxisEndValue>
+      <sortStringValues>False</sortStringValues>
+      <showAllStringValues>False</showAllStringValues>
+      <y2AxisLabel>
+      </y2AxisLabel>
+      <y2AxisLegendTitle>
+      </y2AxisLegendTitle>
+      <y2AxisFormatString>
+      </y2AxisFormatString>
+      <xAxisLabelType>0</xAxisLabelType>
+      <xAxisLabel>
+      </xAxisLabel>
+      <xAxisAngle>0</xAxisAngle>
+      <chartTitle>
+      </chartTitle>
+      <chartSubTitle>
+      </chartSubTitle>
+      <showLegend>False</showLegend>
+      <showLegendBorder>False</showLegendBorder>
+      <showLegendVarNames>False</showLegendVarNames>
+      <legendFontSize>12</legendFontSize>
+      <yAxisLabelFontSize>12</yAxisLabelFontSize>
+      <xAxisLabelFontSize>12</xAxisLabelFontSize>
+      <yAxisFontSize>12</yAxisFontSize>
+      <xAxisFontSize>12</xAxisFontSize>
+      <legendDock>1</legendDock>
+    </columnChartGadget>
+    <frequencyGadget top="1658" left="771" collapsed="False" gadgetType="EpiDashboard.FrequencyControl" id="eb535e83-e5e6-4ea7-8302-e739ed254aeb" actualHeight="324.92">
+      <dataFilters recordProcessScope="undeleted">
+        <filterCondition>
+          <condition>([player_of_match] = 'MS Dhoni')</condition>
+          <friendlyCondition>The value of [player_of_match] is equal to MS Dhoni</friendlyCondition>
+          <columnName>[player_of_match]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>player_of_match</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'MS Dhoni'</value>
+          <friendlyValue>MS Dhoni</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>
+          </joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([player_of_match] = 'V Kohli')</condition>
+          <friendlyCondition>The value of [player_of_match] is equal to V Kohli</friendlyCondition>
+          <columnName>[player_of_match]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>player_of_match</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'V Kohli'</value>
+          <friendlyValue>V Kohli</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([player_of_match] = 'R Sharma')</condition>
+          <friendlyCondition>The value of [player_of_match] is equal to R Sharma</friendlyCondition>
+          <columnName>[player_of_match]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>player_of_match</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'R Sharma'</value>
+          <friendlyValue>R Sharma</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([player_of_match] = 'KL Rahul')</condition>
+          <friendlyCondition>The value of [player_of_match] is equal to KL Rahul</friendlyCondition>
+          <columnName>[player_of_match]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>player_of_match</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'KL Rahul'</value>
+          <friendlyValue>KL Rahul</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([player_of_match] = 'S Dhawan')</condition>
+          <friendlyCondition>The value of [player_of_match] is equal to S Dhawan</friendlyCondition>
+          <columnName>[player_of_match]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>player_of_match</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'S Dhawan'</value>
+          <friendlyValue>S Dhawan</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+        <filterCondition>
+          <condition>([player_of_match] = 'SK Raina')</condition>
+          <friendlyCondition>The value of [player_of_match] is equal to SK Raina</friendlyCondition>
+          <columnName>[player_of_match]</columnName>
+          <columnType>System.String</columnType>
+          <rawColumnName>player_of_match</rawColumnName>
+          <operand>=</operand>
+          <friendlyOperand>is equal to</friendlyOperand>
+          <value>'SK Raina'</value>
+          <friendlyValue>SK Raina</friendlyValue>
+          <highValue>
+          </highValue>
+          <friendlyHighValue>
+          </friendlyHighValue>
+          <lowValue>
+          </lowValue>
+          <friendlyLowValue>
+          </friendlyLowValue>
+          <isBetween>false</isBetween>
+          <isEnabled>true</isEnabled>
+          <joinType>or</joinType>
+        </filterCondition>
+      </dataFilters>
+      <mainVariables>
+        <mainVariable>player_of_match</mainVariable>
+      </mainVariables>
+      <allValues>False</allValues>
+      <showListLabels>False</showListLabels>
+      <sort>hightolow</sort>
+      <includeMissing>True</includeMissing>
+      <useFieldPrompts>True</useFieldPrompts>
+      <drawBorders>True</drawBorders>
+      <drawHeaderRow>True</drawHeaderRow>
+      <drawTotalRow>True</drawTotalRow>
+      <precision>2</precision>
+      <rowsToDisplay />
+      <percentBarWidth>100</percentBarWidth>
+      <columnsToShow>1,2,3,4,5,6</columnsToShow>
+      <customHeading>Frequency</customHeading>
+      <customDescription>
+      </customDescription>
+      <customCaption>
+      </customCaption>
+    </frequencyGadget>
+  </Gadgets>
+  <OutputSettings>
+    <showCanvasSummaryInfo>True</showCanvasSummaryInfo>
+    <showGadgetHeadings>True</showGadgetHeadings>
+    <showGadgetSettings>True</showGadgetSettings>
+    <useAlternatingColors>False</useAlternatingColors>
+    <defaultChartWidth>800</defaultChartWidth>
+    <defaultChartHeight>500</defaultChartHeight>
+    <tableFontSize>13</tableFontSize>
+    <customHeading>
+    </customHeading>
+    <customSummary>
+    </customSummary>
+    <customConclusion>
+    </customConclusion>
+    <customTableFontFamily>
+    </customTableFontFamily>
+    <canvasHeight>8000</canvasHeight>
+    <sortGadgets>True</sortGadgets>
+  </OutputSettings>
+  <CanvasSettings>
+    <editMode>True</editMode>
+    <layoutMode>free</layoutMode>
+  </CanvasSettings>
+</DashboardCanvas>
